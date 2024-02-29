@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/Payment-Rohesh-Princess-Bot-02-28-2'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'omegalinks.in'))
+STREAM_API = (environ.get('STREAM_API', '00ee086508c091442b22b2913ca7971fc59fcd2c'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Filmy_Rohesh'))
 
 # Admins, Channels & Users
