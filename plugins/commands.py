@@ -72,7 +72,7 @@ async def start(client, message):
         await asyncio.sleep(0.5)
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
-        await m.delete()        
+        a'wait m.delete()        
         m=await message.reply_sticker("CAACAgQAAxkBAAEKeqNlIpmeUoOEsEWOWEiPxPi3hH5q-QACbg8AAuHqsVDaMQeY6CcRojAE") 
         await asyncio.sleep(1)
         await m.delete()
@@ -737,11 +737,11 @@ async def settings(client, message):
                 [
                 InlineKeyboardButton(
                     'ʀᴇꜱᴜʟᴛ ᴘᴀɢᴇ',
-                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
+                    callback_data=f'setgs#links#{settings["links"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'ʙᴜᴛᴛᴏɴ' if settings["button"] else 'ᴛᴇxᴛ',
-                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
+                    'links' if settings["links"] else 'button',
+                    callback_data=f'setgs#links#{settings["links"]}#{grp_id}',
                 ),
             ],
             [
