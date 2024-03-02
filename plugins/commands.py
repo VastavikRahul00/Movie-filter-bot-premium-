@@ -740,7 +740,7 @@ async def settings(client, message):
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'ʙᴜᴛᴛᴏɴ' if settings["button"] else 'ᴛᴇxᴛ',
+                    'ʙᴜᴛᴛᴏɴ' if settings["button"] else 'Link',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
             ],
