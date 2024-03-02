@@ -47,7 +47,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002045221583') # support gro
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002116535400') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Filmy:oiKn0AkUrgeBGDFq@rohidasgavit.pbz03z1.mongodb.net/?retryWrites=true&w=majority")
@@ -60,7 +60,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '00ee086508c091442b22b2913ca7971fc59fcd2c')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "5")
+MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MKV_FILES_ROHESH')
