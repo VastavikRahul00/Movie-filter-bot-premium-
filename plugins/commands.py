@@ -735,14 +735,7 @@ async def settings(client, message):
     if settings is not None:
         buttons = [        
                 [
-                InlineKeyboardButton(
-                    'ʀᴇꜱᴜʟᴛ ᴘᴀɢᴇ',
-                    callback_data=f'setgs#links#{settings["links"]}#{grp_id}',
-                ),
-                InlineKeyboardButton(
-                    'links' if settings["links"] else 'button',
-                    callback_data=f'setgs#links#{settings["links"]}#{grp_id}',
-                ),
+                InlineKeyboardButton('⛓ Link' if settings["links"] else '🧲 Button', callback_data=f'setgs#links#{settings["links"]}#{str(grp_id)}'),
             ],
             [
                 InlineKeyboardButton(
