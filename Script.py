@@ -247,7 +247,19 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://telegram.me/Movie_Searching_Pro">{file_name}</a></i>\n\n"""
+    CAPTION = """<b><a href='https://t.me/Filmy_Rohesh_Files'>{file_name}</a>
+
+🗂️ Movies Channel :- @Filmy_Rohesh_Files 
+
+♨️ Group 2 :- @Movie_Searching_Pro
+
+♨️ Group 1 :- @MKV_FILES_ROHESH
+
+🔰 Join For Back-up
+@Filmy_Rohesh
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>
+
+<i>ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏ
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
